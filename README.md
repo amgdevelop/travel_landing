@@ -1,4 +1,4 @@
-# landing_travel
+# landing travel
 A project of a landing page with VueJs and Bootstrap
 
 ## Project setup
