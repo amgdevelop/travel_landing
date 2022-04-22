@@ -101,26 +101,42 @@
 
 
 
-        <div id="contact" class="bg-info p-4">
+        <div id="contact" class="p-4">
             <div class="row justify-content-center mt-3 mb-3">
                 <div class="col-lg-4">
                     <h2>Have Any Questions?</h2>
                     <p>Contact us by filling out the information below</p>
 
-                    <form>
-                        <div class="form-group text-left">
+                    <form class="d-flex flex-column align-items-center"> 
+                        <div class="form-group text-left w-100">
                             <input type="email" class="form-control" placeholder="Enter your Email">
                             <textarea class="form-control mt-3"
                              placeholder="Entenr Your Message"
                              rows="5"></textarea>
+                        </div>
+                        <div>
+
+                            <button type="submit" class="btn btn-primary mt-2 ">Send Message</button>
                         </div>
                     </form>
                 </div>
             </div>
 
         </div>
-        <div id="footer" class="bg-primary p-4">
 
+
+    <!--  -->
+
+        <div id="footer" class="p-4">
+            <footer class="text-light p-4 d-flex flex-column align-items-center">
+                <div>
+
+                    <a href="#" target="_blank" class="text-warning"> Build this App</a> |
+                    <a href="#" class="text-warning">Privaciy Policy</a>
+                
+                </div>
+                <small class="mt-2"> &copy; 2022, Travel.app</small>
+            </footer>
 
         </div>
     </div>
@@ -148,6 +164,14 @@ export default {
 
 #iphone-img {
     max-height: 80vh;
+}
+
+#contact {
+    background-color: #57AEAF;
+}
+
+#footer {
+    background-color: #252223;
 }
 
 </style>
