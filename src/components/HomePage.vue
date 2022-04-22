@@ -64,12 +64,59 @@
 
 
 
-        <div id="about" class="bg-warning p-4">
+        <div id="about" class="bg-light p-3 p-md-5  p-4">
+            <div class="row">
+                <div class="col-lg d-flex flex-column">
+                    <!-- Made with freepick perfect from www.flaticon.com -->
+                    <img src="../assets/icons/app.svg" alt="mobile-icon" height="120" class="m-4">
+                    <h5 class="ml-md-4 mr-md-4">
+                        Plan your next adventure by setting a daily spending budget.
+                        We make it easy to break your expenses down by category,
+                        giving you more time to plan the important things!
+                    </h5>
+                </div>
+                
+                <div class="col-lg d-flex flex-column">
+                    <img src="../assets/icons/piggy-bank.svg" alt="mobile-icon" height="120" class="m-4">
+                    <h5 class="ml-md-4 mr-md-4">
+                        Use the app to track how much money you´ve saved towards your trips total budgeted goal.
+                        Know exactly  how much more you need to save,
+                        and how much time you have left to save.
+                    </h5>
+                </div>
+
+                <div class="col-lg d-flex flex-column">
+                    <img src="../assets/icons/passport.svg" alt="mobile-icon" height="120" class="m-4">
+                    <h5 class="ml-md-4 mr-md-4">
+                        When the day of your trip comes, have the peace of mind that you planned out your expenses. Never worry about money on a trip again.‹
+                    </h5>
+                </div>
+            </div>
 
 
         </div>
-        <div id="contact" class="bg-info p-4">
 
+    
+    <!--  -->
+
+
+
+        <div id="contact" class="bg-info p-4">
+            <div class="row justify-content-center mt-3 mb-3">
+                <div class="col-lg-4">
+                    <h2>Have Any Questions?</h2>
+                    <p>Contact us by filling out the information below</p>
+
+                    <form>
+                        <div class="form-group text-left">
+                            <input type="email" class="form-control" placeholder="Enter your Email">
+                            <textarea class="form-control mt-3"
+                             placeholder="Entenr Your Message"
+                             rows="5"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
 
         </div>
         <div id="footer" class="bg-primary p-4">
