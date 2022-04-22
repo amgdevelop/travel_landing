@@ -1,5 +1,7 @@
 # landing travel
-A project of a landing page with VueJs and Bootstrap
+A project of a landing page with VueJs and Bootstrap.
+You can see the online project on:
+https://travels-app.netlify.app
 
 ## Project setup
 ```
